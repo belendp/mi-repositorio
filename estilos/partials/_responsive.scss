@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px) /*tablet*/{
+    #header{
+        background-color: rgba(207, 206, 206, 0.712);
+    }
+
+}
+
+@media only screen and (max-width: 425px) /*Celu*/ {
+    #header{
+        background-color: white;
+        display: grid;
+
+    }
+}
+
+@media only screen and (max-width: 375px) /*celu chico*/{
+    #header{
+        background-color: brown;
+        display: inline-grid;
+    }
+
+}
